@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <link href="styles02.css" rel="stylesheet">
+    <script async src="./index.js"></script>
+    <title>Log In</title>
+</head>
+<body>
+<div class="content-wrap">
+        <div class="navbar">
+        <div class="col-5"><a href="./index.html"><img src="./logo.png" style="width:250px;" alt="Logo"></a></div>
+        <div class="d-md-none" style="z-index: 01;">
+            <div><button class="navbar-btn" onclick="navFunc()"><i class="fas fa-bars"></i></button></div>
+        </div>
+        <div class="navbar-list col-12 col-md-6  d-md-block">
+            <ul>
+                <li><a href="./page00.html"><div class="col-12 navbar-li">Subcriptions</div></a></li>
+                <li><a href="./page01.html"><div class="col-12 navbar-li">Movies</div></a></li>
+                <li><a href="./page02.html"><div class="login-li col-12 navbar-li ">Log In</div></a></li>
+            </ul>
+        </div> 
+        </div>
+        <div class="main-div">        
+            <div class="login-div">
+                <div class="login-form col-9">
+                    <h1>Sign In</h1>
+                    <form action="./index.html">
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@xyz.com">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="abc123xyz">
+                        </div>
+                        <button type="submit" onclick="myAlert()" class="btn btn-info col-12" style="margin: 10px 0;">Sign In</button>
+                        <div class="form-group form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                        </div>
+                        
+                    </form>
+                    <hr>
+                    <h6 style="margin: -5px 0;">New to Site ? <a href="#">Sign Up</a></h6>
+                </div>
+            </div> 
+        </div>
+</div>
+<footer class="col-12">
+        <div style=" display: flex; justify-content: space-between; align-items: center; padding: 12px 0 0 0;">
+            <img src="./logo.png" style="width:200px;" alt="Logo">
+            <div>This was MyWeb.</div>
+            <div style="display: flex; font-size: 30px;">
+                <i class="far fa-square"></i>
+                <i class="far fa-square"></i>
+                <i class="far fa-square"></i>
+                <i class="far fa-square"></i>
+            </div>
+        </div>
+        <hr>
+        <div>
+            This site is just a assignment don't use your personal information here.
+        </div>
+</footer>
+</body>
+</html>

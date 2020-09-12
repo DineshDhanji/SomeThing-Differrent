@@ -1,0 +1,219 @@
+@media only screen and (max-width: 767px) 
+{
+    .navbar
+    {
+        height: 96px;
+        transition: 280ms;
+    }
+    .navbar-show
+    {
+        height: 260px !important;
+        transition: 280ms;
+    }
+    .navbar-show-2
+    {
+        background-color: black!important;
+    }
+    .navbar-list ul
+    {
+        flex-direction: column!important;
+        list-style: none;
+        margin-left: -40px;
+    }
+    .navbar-li
+    {
+        width: 100%!important;
+        height: 50px!important;
+        font-size: 22px!important;
+        text-align: center!important;
+        padding: 7px 0!important;
+    }
+    .navbar-li:hover
+    {
+    background-color: #12B7CD;
+    font-size: 23px;
+    transition: 200ms;
+    }
+    .login-li
+    {
+        border-radius: 0!important;
+    }
+    .services-div
+    {
+        width: 80%!important;
+    }
+    .pack-cont
+    {
+        width: 75% !important;
+    }
+}
+body 
+{
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+a
+{
+    color: white;
+}
+a:hover
+{
+    color: white;
+    text-decoration: none;
+}
+header
+{
+    background-color: black;
+    width: 100%;
+    color: white;   
+}
+.navbar
+{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    height: 96px;
+    transition: 280ms;
+    background-color: transparent;
+}
+.navbar-show
+{
+    height: 96px;
+    transition: 280ms;
+}
+.navbar-show-2
+{
+    background-color: transparent;    
+}
+.navbar-list ul
+{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    
+} 
+.navbar-li
+{
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 0;
+    margin: 0 12px;
+}
+.navbar-btn
+{
+    border: 2px solid white;
+    border-radius: 10%;
+    z-index: 1;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: transparent;
+}
+.navbar-btn:hover
+{
+    background-color: white;
+    color: black;
+}
+.navbar-btn:focus
+{
+    outline: none;   
+}
+.login-li
+{
+    width: 128px;
+    border: 2px solid white;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+.login-li:hover
+{
+    background-color: #12B7CD;
+}
+.pack-main
+{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.pack-cont
+{
+    width: 32%;
+    border: 1px solid lightgrey;
+    color: black;
+    margin: 4px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.pack-head
+{
+    font-size: 25px;
+    border-bottom: 3px solid black;
+    text-align: center;
+    padding: 3px 0;
+}
+.pack-price
+{
+    font-size: 60px;
+    margin: 15px 0;
+    text-align: center;
+}
+.pack-table table tr
+{
+    border-bottom: 1px solid lightgray;
+    height: 45px;
+}
+.pack-table table tr th, .pack-table table tr td
+{
+    padding: 0 10px;
+}
+.pack-btn
+{
+    margin: 15px 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pack-btn button
+{
+    height: 45px;
+}
+.pack-cont:hover
+{ 
+    cursor: pointer;
+    background-color: #EEEEEE;
+    border: 1px solid red;
+}
+.pack-cont:hover .pack-price
+{
+    color: #12B7CD;
+    transition: 250ms;
+}
+.need-cont
+{
+    background-color: #fff;
+    border: 1px solid white;
+    color: black;
+}
+footer
+{
+    background: rgba(18, 183,205,.75);
+    height: 155px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
